@@ -1,36 +1,33 @@
-# Oleh Poslusniy
+# Oleh Poslushniy #
 
+***
+### Contacts:
+***
+- Phone: +38 063 7724639
+- E-mail: oleg.fort27@gmail.com
+- Telegram: [@oleg_poslushnoy](https://t.me/oleg_poslushnoy)
 
-## Contacts
-
-
-### Phone: +38 063 7724639
-E-mail: oleg.fort27@gmail.com
-Telegram: @oleg_poslushnoy
-
-
-About me
-
-
-I worked at a factory that makes rockets, but became interested in programming. 
+***
+### About me:
+***
+  I worked at a factory that makes rockets, but became interested in programming.   
 Now I am a freelancer to earn money and I study in my free time. I really want to learn new professions
 
+***
+### Skills:
+***
+* HTML, CSS
+* Python, Flask
+* Git
+* Typing
+* Translate
+* Adobe Photoshop, Adobe Reader
 
-Skills
-
-
-HTML, CSS
-Python, Flask
-Git
-Typing
-Translate
-Adobe Photoshop, Adobe Reader
-
-
-Code example:
-
-
-Mini game with number in Flask
+***
+### Code example:
+***
+*Mini game with number in Flask*
+```
 import config
 from flask_wtf import FlaskForm
 from flask import Flask, request, url_for
@@ -69,18 +66,17 @@ def guess():
 		return str(form.errors)
 if __name__=='__main__':
 	app.run()
+```
 
-
-Education:
-
-
+***
+### Education:
+***
 State University of Telecommunications, College of radio electronics
 
-
-Languages:
-
-
-English - B1
-Ukrainian - Native
-Russian - Native
-Polish - B1
+***
+### Languages:
+***
+1. English - B1 
+2. Ukrainian - Native 
+3. Russian - Native 
+4. Polish - B1 
