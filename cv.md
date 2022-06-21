@@ -1,10 +1,10 @@
-#Oleh Poslusniy
+# Oleh Poslusniy
 
 
-##Contacts
+## Contacts
 
 
-###Phone: +38 063 7724639
+### Phone: +38 063 7724639
 E-mail: oleg.fort27@gmail.com
 Telegram: @oleg_poslushnoy
 
