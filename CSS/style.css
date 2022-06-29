@@ -17,7 +17,12 @@ body {
 
 * {
     box-sizing: border-box;
-  }
+  
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 .header {
         
@@ -70,7 +75,8 @@ body {
         font-size: 20px;
         font-weight: 300;
         line-height: 50px;
-        color: #fff; 
+        color: #fff;
+        transition: color 1s; 
      }
 
 .nav-link::after {
@@ -83,6 +89,7 @@ body {
         background-color: #fff;
         opacity: 0;
         transition: .5s;
+        
 }
 
 .nav-link:hover::after {
@@ -99,6 +106,13 @@ body {
     to {
       width: calc(100% - 24px);
     }
+  }
+
+
+
+  
+.link-color:hover {
+    color: #4d2323;
   }
 
 
@@ -292,7 +306,7 @@ li::marker {
 .li-item a {
         text-decoration: none;
         color: #829985;
-        transition: color 0.5s;
+        transition: color 1s;
       }
       
 .li-item a:hover {
@@ -303,7 +317,7 @@ li::marker {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 0;
+    margin: 0 auto;
     color:#fff;
 }
 
@@ -319,4 +333,8 @@ li::marker {
     background-image: url("/rsschool-cv/svg/rs_school_js.svg");
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .no-border{
+    border-bottom:none;
   }
